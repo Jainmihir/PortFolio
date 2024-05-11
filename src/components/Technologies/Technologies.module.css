@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.container>div {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+
+.container .largeIcon {
+    height: 60px;
+    width: 60px;
+    margin: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container>div {
+        width: 90%;
+    }
+    .container .largeIcon {
+        height: 45px;
+        width: 45px;
+        margin: 10px;
+    }
+}

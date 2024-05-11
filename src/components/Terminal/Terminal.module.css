@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    padding: 40px 0;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+.container>div {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}

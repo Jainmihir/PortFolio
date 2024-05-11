@@ -1,0 +1,64 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    margin: 30px;
+}
+
+.main .description {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.main .description .cardText {
+    padding: 10px 30px;
+}
+
+.main .description .cardText h3 {
+    text-align: justify;
+}
+
+.main .description .cardText .devicon {
+    max-width: 10em;
+    height: 35px;
+    width: 35px;
+    margin: 5px 10px;
+}
+
+.main .image {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.main .image .cardImageDiv {
+    padding: 20px;
+}
+
+.main .image .cardImageDiv img {
+    width: 100%;
+    margin-top: auto;
+    border: 1px solid var(--text-color);
+}
+
+@media only screen and (max-width: 1024px) {
+    .main {
+        flex-direction: column;
+    }
+    .main .description {
+        width: 100%;
+    }
+    .main .image {
+        width: 100%;
+    }
+    .main .image img {
+        border: none;
+    }
+}

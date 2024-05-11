@@ -1,0 +1,28 @@
+.container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 15px 0 15px 10px;
+    border-radius: 0 0 0 20px;
+    z-index: 4;
+}
+
+.container .button {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px 0 10px 10px;
+    }
+    .container .button {
+        height: 20px;
+        width: 20px;
+        border-width: 1px;
+    }
+}
