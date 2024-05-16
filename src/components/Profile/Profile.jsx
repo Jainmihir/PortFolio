@@ -1,6 +1,6 @@
 import { FaDownload } from "react-icons/fa";
 import Tilt from 'react-parallax-tilt';
-import TextLoop from "react-text-loop";
+// import TextLoop from "react-text-loop";
 import Logo from '../Logo/Logo';
 import styles from "./Profile.module.css";
 
@@ -9,12 +9,12 @@ function Profile() {
         <div className={styles.profileCard}>
             <div className={styles.profileText}>
                 <h1>
-                    <TextLoop>
                         <span className={styles.greeting}>Hello</span>
+{/*                     <TextLoop>
                         <span className={styles.greeting}>Hola!</span>
                         <span className={styles.greeting}>Namaste!</span>
 
-                    </TextLoop>
+                    </TextLoop> */}
                     <br />
                     My name is Mihir...
                 </h1>
