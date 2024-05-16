@@ -21,7 +21,7 @@ export const SocialMediaLinks = [{
 },
 {
     icon: SiLinkedin,
-    url: "https://linkedin.com/in/nishant-bharwani",
+    url: "https://www.linkedin.com/in/mihir-jain-754a26139/",
 },
 {
     icon: SiInstagram,
